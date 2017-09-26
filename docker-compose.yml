@@ -23,7 +23,6 @@ services:
     ports:
      - "5140:5140"
      - "5140/udp:5140/udp"
-     - "5002/udp:5002/udp"
     volumes:
      - "./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml"
      - "./logstash/pipeline:/usr/share/logstash/pipeline"
