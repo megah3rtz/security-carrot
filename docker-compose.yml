@@ -14,7 +14,7 @@ services:
   kibana:
     image: "kibana:5.5.1"
     environment:
-      elastisearch.url: "http://elasticsearch:9200"
+      elasticsearch.url: "http://elasticsearch:9200"
     ports:                                                                                                               
      - "5601:5601"
 
